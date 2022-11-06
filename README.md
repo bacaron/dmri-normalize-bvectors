@@ -6,8 +6,8 @@ This script first loads the bvectors and bvalues files (given to the function as
 The normalized bvectors will then be saved as a new file to the same location as the intput bvectors file, but with a '_norm' suffix.
 
 ## Dependencies
-dipy (pip install dipy)
-dmriprep (pip install dmriprep)
+- dipy (pip install dipy)
+- dmriprep (pip install dmriprep)
 
 ## How to run
 python3 normalize_bvectors.py <path-to-bvecs_file> <path-to-bvals_file>
